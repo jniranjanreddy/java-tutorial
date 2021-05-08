@@ -28,4 +28,28 @@ class hello {
 	   System.out.print(myVar.nextLine()); // Its will wait for user input, once received output, it will print on console.
    }
 }
+==================================
+If Conditions
+class hello {
+   public static void main(String args[]){
+	  
+	   int apple, orange;
+	   
+	   apple = 10;
+	   orange = 10;
+	   
+	   if (apple == orange) {
+		   
+		  System.out.println( "Provided Value is: " + apple);
+		  
+	   }else if ( apple != orange){
+		   
+		   System.out.println( "hey i am in else if");
+	   }else{
+		   System.out.println( "Hey I am in else");
+		   
+	   }
+		   
+	}
+}
 ```
