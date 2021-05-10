@@ -52,4 +52,34 @@ class hello {
 		   
 	}
 }
+=========================
+Switch case
+
+class hello {
+   public static void main(String args[]){
+	  
+	   int age;
+	   age = 61;
+	   
+	switch (age) {
+	  
+	case 18:
+		System.out.println("You can Vote Now");
+		break;
+		
+	case 25:
+		System.out.println("You can marry now");
+		break;
+	case 60:
+		System.out.println("You can Retire Now");
+	    break;
+	    
+	default:
+		System.out.println("You have to wait");
+		
+	}   
+			   
+  }
+		   
+}
 ```
