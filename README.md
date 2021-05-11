@@ -82,4 +82,19 @@ class hello {
   }
 		   
 }
+===================================
+## While Loop
+class hello {
+   public static void main(String args[]){
+	   int age;
+	   age = 0;
+	   
+  while ( age < 9 ) {
+	  age++; 
+	   System.out.println( age + " Hello" );
+      }
+		
+  }   
+			   
+}
 ```
