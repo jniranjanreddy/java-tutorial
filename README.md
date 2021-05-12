@@ -97,4 +97,28 @@ class hello {
   }   
 			   
 }
+==================================
+Arrays in Java.
+import java.util.ArrayList;
+
+class hello {
+   public static void main(String args[]){
+	   
+	   String Student[] = { "Rama", "Sita", "Laxmana", "Hanuma" };
+	   System.out.println(Student[0]);
+	   
+	   /*
+	   int apple[] = { 5, 10, 15, 20, 25, 30 };
+	   System.out.println(apple[2]);
+	   */
+	  
+	   /*
+	   ArrayList<String> cars = new ArrayList<String>();
+	    cars.add("Volvo");
+	    cars.add("BMW");
+	    cars.add("Ford");
+	    cars.add("Mazda");
+	    System.out.println(cars.get(0));
+		*/
+  }   
 ```
